@@ -663,7 +663,7 @@
                 const successList = document.getElementById('success-items-list');
                 let successHtml = '';
                 let total = 0;
-                let deliveryCharge = 00; // ডেলিভারি চার্জ ৬০ টাকা
+                let deliveryCharge = 60; // ডেলিভারি চার্জ ৬০ টাকা
 
                 cart.forEach(item => {
                     let itemTotal = item.price * item.qty;
@@ -693,5 +693,6 @@
                 submitBtn.disabled = false;
             });
         });
+    </script>
 </body>
 </html>
